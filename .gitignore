@@ -1,0 +1,65 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Application-specific files ###
+# Application properties with sensitive information
+**/application-*.properties
+**/application-*.yml
+!**/application-example.properties
+!**/application-example.yml
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Database ###
+*.db
+*.sqlite
+*.sqlite3
+h2db/
+*.h2.db
+
+### Maven Wrapper specific ###
+!maven-wrapper.jar
+
+### Project-specific ###
+# Any custom generated files specific to your project
+# deployment-specific configs
