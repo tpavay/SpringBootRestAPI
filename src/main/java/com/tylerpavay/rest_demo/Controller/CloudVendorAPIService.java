@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import com.tylerpavay.rest_demo.model.CloudVendor;
 
-@RestController
+@RestController // This class is responsible for exposing all functionality for REST APIs
 @RequestMapping("/cloudvendor")
 public class CloudVendorAPIService {
 
